@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  background: #6FBF44;
+  border: 1px solid #4CB538;
+  border-radius:30px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  width: 124px;
+  height: 51px;
+  cursor: pointer;
+  transition-duration: 0.6s;
+}
+
+button:hover {
+  background: #88ea53;
+  border: 1px solid #88ea53;
+}
+
+h1 {
+  color: #161A49;
+  font-size: 62px;
+  font-weight: 700;
+  width: 582px;
+  margin-left: 85px;
+}
+
+header {
+  margin: 47px 0 0 42px;
+}
+
+.header-links {
+  margin-right: 36px;
+  text-decoration: none;
+  color: #17233D;
+  font-weight: 400px;
+  font-size: 16px;
+  letter-spacing: 0.875px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.header-links:hover {
+  padding: 10px;
+  background-color: #f0efef;
+  border-radius: 28px;
+}
+
+img {
+  margin: 80px 0 0 121px;
+  display: inline-block;
+  height: 500px;
+  width: 595px;
+}
+
+.leia-mais {
+  color: #6FBF44;
+  margin-left: 85px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.leia-mais:hover {
+  text-decoration: underline;
+}
+
+section {
+  display: inline-block;
+}
+
+p {
+  width: 493px;
+  height: 99px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  margin: 47px 0 55px 85px;
+}
+
+@media screen and (max-width: 600px) {
+
+  button {
+    position: relative;
+    left: 200px;
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  img {
+    position: absolute;
+    top: 520px;
+    width: 280px;
+    height: 269px;
+    display: block;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 30px;
+    width: 278px;
+    text-align: center;
+    margin: 76px 57px 0 57px;
+  }
+
+  p {
+    width: 304px;
+    height: auto;
+    text-align: center;
+    margin: 27px 43px 27px 43px;
+    letter-spacing: 0.5px;
+  }
+
+  .leia-mais {
+    margin-left: 139px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
